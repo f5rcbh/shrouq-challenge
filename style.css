@@ -1,0 +1,88 @@
+* {
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+nav{
+    background: linear-gradient(360deg ,rgba(247, 177, 86, 0.801),rgb(29, 29, 29));
+}
+.group-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    height: 10vh;
+}
+
+.list-items , .list-items-first{
+    list-style:none;
+    font-size: 1.25rem;
+    width: 3cm;
+    text-align: center;
+    cursor: pointer;
+    transition: ease-in-out .2s;
+    font-family: 'Playfair Display', serif;
+}
+.list-items-first{
+    border-radius: 20px;
+    background: rgba(247, 177, 86, 0.295);
+}
+.list-items-first:hover{
+    background: rgba(0, 0, 0, 0.233);
+}
+h1{
+
+  transform: translate(0%,150%);
+    font-size: 3rem;
+}
+.container{
+    background-image: url(mountain.jpg);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    transform: translate(85%,20%);
+
+
+}
+.pragraph{
+    margin: 20px;
+    width: 50%;
+    padding: 20px;
+    display: block;
+    background: rgba(176, 253, 176, 0.308);
+
+}
+button{
+    outline: none;
+    border: none;
+    background: gray;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    display:block;
+    transition: ease-in-out .3s;
+    font-size: 15px;
+}
+button:hover{
+    background: rgb(148, 147, 147);
+}
+.footer{
+    background: rgb(29, 29, 29);
+    height: 20vh;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    color: orange;
+    font-weight: bold;
+}
